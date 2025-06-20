@@ -38,6 +38,8 @@ function App() {
       <div className="bg-white dark:bg-primary-900 text-primary-900 dark:text-white">
         <Header darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
         <main>
+          <h1 className="text-4xl font-bold text-red-500">Test CSS Tailwind</h1>
+
           <Hero />
           <About />
           <Skills />
